@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AT DIGITAL</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="home.css">
+
+</head>
+
+<body>
+
+
+    <nav>
+        <div class="logo">
+            <img src="./images/Logo.png" alt="profile" />
+        </div>
+        <ul id="menuList">
+            <li><a href="">SERVISES</a></li>
+            <li><a href="">ABOUT US</a></li>
+            <li><a href="">CONTACT US</a></li>
+            <li><a href="">CAREERS</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="bi bi-list" onclick="toggleMenu()"></i>
+
+        </div>
+    </nav>
+
+
+
+    <div class="background-image">
+
+    </div>
+    <div class="text-box">
+        <p class="crush">We Crush Your Compertitirs, Goals, And Sales Recorde - Without The B.S.</p>
+        <button class="btn1"><a href="#">GET FREE CONSULTATION</a></button>
+    </div>
+    <div class="text-box1">
+        <p class="crush">We Crush Your Compertitirs, Goals, And Sales Recorde - Without The B.S.</p>
+        <button class="btn1"><a>GET FREE CONSULTATION</a></button>
+
+    </div>
+
+
+
+    <div id="about">
+
+        <div class="wrapper">
+            <div class="columns">
+                <div class="about-col-1">
+                    <img src="./images/image 2.png" alt="profile" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">Web & Mobile App Development</h1>
+                    <p class="content1">
+                        Your Web and mobile Apps are pieces of the puzzle to grow your business.
+                        We use framworks which tailor content and engagement methode to respond to different intents
+                        shown by your
+                        potential customers who interact with your bussiness online.
+                    </p>
+                    <button class="btn2"><a>LEARN MORE</a></button>
+                </div>
+
+                <div class="about-col-3"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about">
+        <div class="wrapper">
+            <div class="columns">
+                <div class="about-col3">
+
+                    <h1 class="subtitle">Digital Strategy Consulting</h1>
+                    <p class="content1">
+                        Your digital strategy should complement the overall marketing strategy of
+                        the company. In online marketing, each component will never work in isolation
+                        and every business needs a diffferent mix. We provide a clear concepts and atrategic overview to
+                        find the most efficientmodel for
+                        your bussiness.
+                    </p>
+                    <button class="btn2"><a>LEARN MORE</a></button>
+
+
+
+                </div>
+                <div class="about-col4">
+
+                    <img src="./images/image 1.png" alt="profile" />
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+     <div class="content3">
+        <h1 class="topic">Frequently asked Questions </h1>
+      
+       
+        
+    </div> 
+
+
+    <div class="content3">
+        <div class="text-box3">
+            <p>Lorem ipsum dolor sit amet consecteture. leo at sit eu libero?</p>
+            <div class="show-more-btn"><i class="bi bi-plus"></i></div>
+        </div>
+        <div class="text-box3-hidden ">
+            <p>Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.</p>
+            <div class="show-less-btn"><i class="bi bi-dash"></i></div>
+        </div>
+
+        <div class="text-box3">
+            <p>Lorem ipsum dolor sit amet consecteture. leo at sit eu libero?</p>
+            <div class="show-more-btn"><i class="bi bi-plus"></i></div>
+        </div>
+        <div class="text-box3-hidden ">
+            <p> no content</p>
+            <div class="show-less-btn"><i class="bi bi-dash"></i></div>
+        </div>
+
+        <div class="text-box3">
+            <p>Lorem ipsum dolor sit amet consecteture. leo at sit eu libero?</p>
+            <div class="show-more-btn"><i class="bi bi-plus"></i></div>
+        </div>
+        <div class="text-box3-hidden ">
+            <p>no content</p>
+            <div class="show-less-btn"><i class="bi bi-dash"></i></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_info">
+
+            <div class="footer_width logo1">
+                <div class="logo">
+                    <img src="./images/Logo.png" alt="profile" />
+                </div>
+                <p class="footercontent">Your goal is our targrt. Not anything in between. We use online marketing
+                    platform and tools to achive single objective-your business result</p>
+            </div>
+
+            <div class="footer_width tech">
+                <h1>Our Technologies</h1>
+                <ul>
+                    <li><a href="">ReacrJS</a></li>
+                    <li><a href="">Gatsby</a></li>
+                    <li><a href="">NextJS</a></li>
+                    <li><a href="">NodeJS</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer_width service">
+                <h1>Our Servises</h1>
+                <ul>
+                    <li><a href="">Social Media Marketing</a></li>
+                    <li><a href="">Web and Mobile App Development</a></li>
+                    <li><a href="">Data & Analytics</a></li>
+
+                </ul>
+
+            </div>
+            
+        </div>
+        <hr>
+            <div class="copy-write">
+                <p>Privacy Policy | Terms & Conditions</p>
+            </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu() {
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "300px"
+            }
+            else {
+                menuList.style.maxHeight = "0px"
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const showMoreButtons = document.querySelectorAll('.show-more-btn');
+            const showLessButtons = document.querySelectorAll('.show-less-btn');
+
+            showMoreButtons.forEach(function (button) {
+                button.addEventListener('click', function () {
+                    const hiddenContent = this.parentNode.nextElementSibling;
+                    hiddenContent.style.display = 'block';
+                    this.style.display = 'none';
+                });
+            });
+
+            showLessButtons.forEach(function (button) {
+                button.addEventListener('click', function () {
+                    const hiddenContent = this.parentNode;
+                    hiddenContent.style.display = 'none';
+                    hiddenContent.previousElementSibling.querySelector('.show-more-btn').style.display = 'block';
+                });
+            });
+        });
+
+
+
+
+
+
+        document.getElementById('button-1').addEventListener('click', function () {
+            document.getElementById('content-1').style.display = 'none';
+            document.getElementById('content-2').style.display = 'block';
+        });
+
+        document.getElementById('button-2').addEventListener('click', function () {
+            document.getElementById('content-2').style.display = 'none';
+            document.getElementById('content-1').style.display = 'block';
+        });
+
+
+
+    </script>
+
+</body>
+
+</html>
