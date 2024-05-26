@@ -126,6 +126,20 @@ nav ul li a {
 
 }
 
+.text-box12 {
+    color: #fff;
+    padding: 30px 10px;
+    text-align: left;
+    background-image: linear-gradient(to right, #1CBDDD, #4DCA79);
+    width: 100%;
+    top: 70%;
+    left: 5%;
+    display: none;
+
+
+}
+
+
 .crush {
     font-family: 'Inter';
     font-size: 48px;
