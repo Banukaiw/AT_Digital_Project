@@ -135,6 +135,15 @@ nav ul li a {
     text-align: left;
 }
 
+.crush {
+    font-family: 'Inter';
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2%;
+    font-weight: 700;
+    text-align: left;
+}
+
 .btn1 {
     background-color: #F28D35;
     width: 214px;
